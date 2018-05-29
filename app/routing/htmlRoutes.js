@@ -28,9 +28,9 @@ module.exports = function(app) {
         response.sendFile(path.join(__dirname + "/../public/assets/images/banner.jpg"));
     });
 
-     //images
-     app.get("/images", function(request, response){
-        response.sendFile(path.join(__dirname + "/../public/assets/images/"));
+     //avatar image
+     app.get("/image", function(request, response){
+        response.sendFile(path.join(__dirname + "/../public/assets/images/Avatars.png"));
     });
    
     //java file
