@@ -1,0 +1,69 @@
+.jumbotron {
+    background-image: url(/banner);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-color: #BCBCBC;
+}
+
+#h1Head {
+    font-size: 70px;
+    color: #FFFFFF;
+    font-family: Exo;
+}
+
+#h2Head{
+    font-size: 26px;
+    color: #FFFFFF;
+    font-family: open sans;
+    text-shadow: #666666;
+}
+
+#h2-survey {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+hr {
+    background-color: #222222;
+    height: 1px;
+}
+
+h1{
+    font-family: Exo;
+    font-size: 70px;
+    color: #0072bc;
+}
+
+h2{
+    font-family: Exo;
+    font-size: 50px;
+    color: #0072bc;
+}
+
+h3{
+    font-family: Exo;
+    font-size: 26px;
+    color: #323f44;
+    padding-top: 30px;
+}
+
+h4{
+    font-family: Exo;
+    font-size: 20px;
+    color: #0072bc;
+}
+
+h5{
+    font-family: Exo;
+    font-size: 20px;
+    color: #0072bc;
+}
+
+h6{
+    font-family: Exo;
+    font-size: 18px;
+    color: #0072bc;
+}
