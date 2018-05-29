@@ -9,32 +9,7 @@ module.exports = function(app) {
     });
 
     //home page (default page)
-    app.get("/home", function(request, response){
+    app.get("/", function(request, response){
         response.sendFile(path.join(__dirname + "/../public/home.html"));
-    });
-/*
-    //unknown goes to home page
-    app.get("*", function(request, response){
-        response.sendFile(path.join(__dirname + "/../public/home.html"));
-    });*/
-
-    //CSS file
-    app.get("/style", function(request, response){
-        response.sendFile(path.join(__dirname + "/../public/assets/css/style.css"));
-    });
-    
-    //image for banner
-    app.get("/banner", function(request, response){
-        response.sendFile(path.join(__dirname + "/../public/assets/images/banner.jpg"));
-    });
-
-     //avatar image
-     app.get("/image", function(request, response){
-        response.sendFile(path.join(__dirname + "/../public/assets/images/Avatars.png"));
-    });
-   
-    //java file
-    app.get("/app-java", function(request, response){
-        response.sendFile(path.join(__dirname + "/../public/assets/javascript/app-java.js"));
     });
 };

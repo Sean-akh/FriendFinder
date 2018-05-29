@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url(/banner);
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-position: center;
